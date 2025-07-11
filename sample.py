@@ -1,19 +1,4 @@
-#print("LOGIN")
-#print("\n")
-#username=input("USERNAME: ")
-#password=input("PASSWORD: ")
-#if username==" " or len(username)<6:
-#   print("Invalid username")
-#if password==" " or len(password)<6:
-#    print("Invalid password")
-#print("1. LOGIN")
-#print("2. RESET")
-#s=int(input())
-#if s==1:
-#   print("Welcome",username)
-#elif s==2:
-
-
+#login form
 from tkinter import *
 root=Tk()
 root.geometry("500x300")
